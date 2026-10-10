@@ -3,6 +3,7 @@ motorola.hardware.audio.radar::IAudioRadar    u:object_r:hal_audio_hwservice:s0
 
 # Camera
 motorola.hardware.camera.desktop::ICameraDesktop    u:object_r:hal_cameradesktop_hwservice:s0
+motorola.hardware.camera.imgtuner::IImageTuning     u:object_r:hal_imagetuner_hwservice:s0
 
 # Fingerprint
 com.fingerprints.extension::IFingerprintNavigation                            u:object_r:hal_fingerprint_hwservice:s0

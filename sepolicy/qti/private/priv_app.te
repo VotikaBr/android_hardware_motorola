@@ -1,0 +1,7 @@
+hal_client_domain(priv_app, hal_cameradesktop)
+hal_client_domain(priv_app_36, hal_cameradesktop)
+hal_client_domain(priv_app, hal_imagetuner)
+hal_client_domain(priv_app_36, hal_imagetuner)
+
+allow priv_app_all cgroup:dir search;
+allow priv_app_all cgroup_v2:dir search;

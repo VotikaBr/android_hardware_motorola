@@ -18,7 +18,7 @@ ro.vendor.hw.                             u:object_r:vendor_mot_hw_prop:s0
 ro.vendor.manufacturedate                 u:object_r:vendor_mot_hw_prop:s0
 ro.vendor.mot.cust_md5                    u:object_r:vendor_mot_hw_prop:s0
 ro.vendor.mot.gki.                        u:object_r:vendor_mot_hw_prop:s0
-ro.vendor.mot.hw.                         u:object_r:vendor_mot_hw_prop:s0
+ro.vendor.mot.hw.                         u:object_r:vendor_camera_prop:s0
 ro.vendor.mot.iccid                       u:object_r:vendor_mot_hw_prop:s0
 ro.vendor.product.device                  u:object_r:vendor_mot_hw_prop:s0
 ro.vendor.product.display                 u:object_r:vendor_mot_hw_prop:s0

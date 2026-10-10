@@ -1,5 +1,6 @@
 # Camera
 type hal_cameradesktop_hwservice, hwservice_manager_type;
+type hal_imagetuner_hwservice, hwservice_manager_type;
 
 # IFAA
 type hal_ifaa_hwservice, hwservice_manager_type;

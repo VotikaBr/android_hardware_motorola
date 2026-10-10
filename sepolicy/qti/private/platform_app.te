@@ -1,1 +1,9 @@
+hal_client_domain(platform_app, hal_cameradesktop)
+hal_client_domain(platform_app_36, hal_cameradesktop)
 hal_client_domain(platform_app, hal_ifaa)
+hal_client_domain(platform_app_36, hal_ifaa)
+hal_client_domain(platform_app, hal_imagetuner)
+hal_client_domain(platform_app_36, hal_imagetuner)
+
+allow platform_app_all cgroup:dir search;
+allow platform_app_all cgroup_v2:dir search;

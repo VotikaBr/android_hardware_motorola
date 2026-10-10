@@ -1,3 +1,8 @@
 # MotCamera3
-get_prop(platform_app, audio_config_prop)
-get_prop(platform_app, vendor_audio_prop)
+get_prop(platform_app_all, audio_config_prop)
+get_prop(platform_app_all, vendor_audio_prop)
+get_prop(platform_app_all, vendor_mot_hw_prop)
+get_prop(platform_app_all, vendor_camera_prop)
+get_prop(platform_app_all, moto_camera_config_prop)
+
+r_dir_file(platform_app_all, vendor_proc_hw)
